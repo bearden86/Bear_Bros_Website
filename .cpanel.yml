@@ -1,0 +1,8 @@
+# .cpanel.yml file to deploy the bearbros directory for hosting the website on cPanel
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=~/public_html/bearbros/
+    - mkdir -p $DEPLOYPATH
+    - cp -R * $DEPLOYPATH
