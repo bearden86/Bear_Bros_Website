@@ -3,6 +3,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=~/public_html/bearbros/
+    - export DEPLOYPATH=~/Users/meiliebearden/Documents/coding/quickie/helloWorld/bearbros
     - mkdir -p $DEPLOYPATH
     - cp -R * $DEPLOYPATH
