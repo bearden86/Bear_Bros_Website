@@ -1,5 +1,5 @@
 function subscribe() {
-    window.open("https://youtube.com", "_blank");
+    window.open("https://www.youtube.com/@BEARBROS86", "_blank");
 }
 
 function showEvents() {
